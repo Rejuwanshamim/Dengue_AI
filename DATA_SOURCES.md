@@ -37,17 +37,6 @@ Weekly dengue cases for San Juan (Puerto Rico) and Iquitos (Peru). Used only for
 
 Test Data Features and Submission Format are not used. Please read DrivenData's terms of data use before reusing the data, and cite the competition.
 
-## Folder layout
-
-```
-project/
-├── dengue_revised.ipynb
-├── national.csv
-├── Spatial_extract_V1_3.csv
-└── data/dengai/
-    ├── dengue_features_train.csv
-    └── dengue_labels_train.csv
-```
 
 The notebook reads these paths from environment variables, which you can change:
 
@@ -59,7 +48,4 @@ The notebook reads these paths from environment variables, which you can change:
 
 The spatial extract file name is set by `SPATIAL_RAW_CSV` in the notebook (it is only needed the first time, to build the cached file).
 
-## How to cite
 
-- Clarke J, Lim A, Gupte P, Pigott DM, van Panhuis WG, Brady OJ. A global dataset of publicly available dengue case count data. *Scientific Data* 11, 296 (2024). https://doi.org/10.1038/s41597-024-03120-7
-- DrivenData. DengAI: Predicting Disease Spread. https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/
